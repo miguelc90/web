@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	color: whitesmoke;
+}
+
+input[type=text],[type=date], [type=email]{
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date]{
+	width: 34%;
+}
+
+#comentario{
+	resize: none;
+}
+
+#enviar{
+	width: 15%;
+	margin-left: 5%;
+}
+
+#enviar:hover{
+	background-color: lightgreen;
+}
+
+.btnInicio{
+	background-color: lightgrey;
+	display: inline-block;
+	width: 20%;
+	margin-left: 8%;
+	border: 1px solid black;
+}
+
+#inicio{
+	text-decoration: none;
+	margin-left: 13%;
+}
+
+.btnInicio:hover{
+	background-color: lightgreen;
+}

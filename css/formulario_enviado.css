@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+}
+
+h1, h3{
+	color: indianred;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+	margin-left: 50%;
+}
+
+a:hover{
+	background-color: yellow;
+	color: black;
+	font-family: fantasy;
+}
+
+.jamesok{
+	width: 35%;
+	height: 30%;
+}

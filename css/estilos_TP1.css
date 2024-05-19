@@ -1,0 +1,61 @@
+body{
+	background-color: black;
+}
+
+h1, h2, h3{
+	color: whitesmoke;
+}
+.informacion{
+	color: red;
+}
+
+.fecha{
+	color: whitesmoke;
+}
+
+p{
+	color: red;
+}
+
+.guitarras{
+	color: red;
+}
+
+.tipoGuitar{
+	color: whitesmoke;
+}
+
+.miembros{
+	color: red;
+}
+
+div{
+	width: 100%;
+	background-color: black;
+}
+
+footer, h5{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: yellow;
+	font-family: fantasy;
+	font-size: 16px;
+}
+
+.enlaces{
+	color: lightgreen;
+}
+
+.enlace_color{
+	color: red;
+}

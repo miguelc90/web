@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="./css/formulario.css">
+</head>
+<body>
+	<center>
+		<h1>Adherite al club de fans</h1>
+	</center>
+	<p>Por favor completa el siguiente formulario</p>
+	<small>los campos con (*) son requeridos</small>
+
+	<form id="formulario" action="formulario_enviado.html" method="POST" autocomplete="">
+		<label for="nombre"><small>(*)</small>Nombre:</label>
+		<input type="text" id="nombre" name="nombre" placeholder="escriba su nombre aquí" required><br>
+
+		<label for="apellido"><small>(*)</small>Apellido:</label>
+		<input type="text" id="apellido" name="apellido" placeholder="escriba su apellido aquí" required><br>
+
+		<label for="fecha_nacimiento"><small>(*)</small>Fecha de Nacimiento:</label>
+		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+		<label for="e-mail"><small>(*)</small>E-mail:</label>
+		<input type="email" id="e-mail" name="e-mail" placeholder="ejemplo@mail.com" required><br>
+
+		<label for="comentario">Escribe por que deseas unirte al club de fans <small>(opcional)</small></label><br>
+		<textarea id="comentario" name="comentario" cols="50" rows="10"></textarea><br>
+
+		<input type="submit" id="enviar" name="enviar">
+
+		<div class="btnInicio">
+			<a id="inicio" href="TP1_version_4.0.html">regresar a inicio</a>
+		</div>
+</form>
+</body>
+</html>
